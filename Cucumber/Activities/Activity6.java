@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
     features = "Features",
     glue = {"stepDefinitions"},
-    tags = "@activity3",
+    tags = "@activity3 or @activity4 or @activity2 or @activity1",
     plugin = {"pretty", "html:test-reports",
     		"json:test-reports/jsonReport.json"},
     monochrome = true
